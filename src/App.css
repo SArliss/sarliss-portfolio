@@ -1,0 +1,77 @@
+body {
+  max-width: 100vw;
+  display: block;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  padding-top: 6em;
+}
+
+.App {
+  display: block;
+  font-family: 'Spartan', serif;
+  font-weight: 200;
+}
+
+.Content {
+  display: block;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  z-index: -1;
+  background-color: white;
+  flex: 1;
+}
+
+.section-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: justify;
+  background-color: white;
+  padding: 7vw 10vw 5vw 10vw;
+  margin-bottom: 2vh;
+}
+
+#about-sinara {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#about-sinara p {
+  width: 20em;
+}
+
+#sinara-photo {
+  height: 30vw;
+  box-shadow: -1vw -1vw rgba(176, 176, 176, 0.7);
+  margin: auto 4vw;
+}
+
+nav {
+  overflow: scroll;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(77, 83, 95, 0.8);
+}
+
+#ul-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: .75vw;
+  list-style-type: none;
+}
+
+.nav-item {
+  transition: 0.3s ease;
+  color: white;
+  font-size: 1.3em;
+  text-decoration: none;
+  padding: .35vw 0;
+  margin: 0 .75vw;
+}
+
+.nav-item:hover {
+  border-top: 0.2em dotted #ffffff;
+  padding: 0.1em 0;
+}
