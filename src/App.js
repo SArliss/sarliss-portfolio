@@ -8,6 +8,9 @@ import About from './Components/About';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
+import Skills from './Components/Skills';
+import Resume from './Components/Resume';
+
 
 class App extends React.Component {
 
@@ -21,7 +24,9 @@ class App extends React.Component {
 
         <div className="Content">
           <About />
+          <Skills />
           <Projects />
+          <Resume />
           <Contact />
         </div>
 
