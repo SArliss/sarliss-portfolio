@@ -149,6 +149,10 @@ nav {
   padding: 0.1em 0;
 }
 
+a {
+  color: rgb(60, 131, 136);
+}
+
 h3 {
   font-family: 'Poiret One', serif;
   text-align: center;
@@ -163,6 +167,11 @@ footer {
   padding: 1.5em;
   color: white;
   background-color: rgba(77, 83, 95, 0.8);
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
 }
 
 .project-image > a > img {
@@ -203,5 +212,20 @@ footer {
 
 .project-description li {
  margin: 0 1em;
+}
+
+.social-media {
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+}
+
+.social-media p {
+  font-size: 1.2em;
+}
+
+.social-media a img {
+  width: 5em;
+  margin: 1em;
 }
 
