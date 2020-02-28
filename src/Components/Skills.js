@@ -3,7 +3,6 @@ import React from 'react';
 function Skills() {
   return (
     <div id="skills" className="section-wrapper">
-      <section className="section-wrapper">
         <div className="skills-inner-wrapper">
           <h3>Skills</h3>
           <ul id="ul-skills">
@@ -28,7 +27,6 @@ function Skills() {
             <li>JSON</li>
           </ul>
         </div>
-      </section>
     </div>
   )
 }

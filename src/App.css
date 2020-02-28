@@ -27,7 +27,6 @@ html {
   text-align: justify;
   background-color: white;
   padding: 7vw 10vw 5vw 10vw;
-  margin-bottom: 2vh;
 }
 
 .hero-section {
@@ -60,6 +59,7 @@ header {
   width: 50vw;
   color: rgb(72, 77, 85);
   background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0.2em 0.1em -0.1em rgba(0,0,0,.2);
 }
 
 header h1 {
@@ -89,7 +89,7 @@ header h2 {
   margin: 0 auto;
   border-radius: 50%;
   outline-offset: -0.5em;
-  border: 10px solid rgb(255, 255, 255);
+  border: 0.8em solid rgb(255, 255, 255);
   box-shadow: -1vw -1vw rgba(176, 176, 176, 0.7);
 }
 
@@ -105,6 +105,7 @@ nav {
   top: 0;
   width: 100%;
   background-color: rgba(77, 83, 95, 0.8);
+  box-shadow: 0 0.2em 0.1em -0.1em rgba(0,0,0,.2);
 }
 
 #ul-nav {
@@ -125,6 +126,7 @@ nav {
   justify-items: center;
   align-content: center;
   justify-content: center;
+  padding: 0;
 }
 
 #ul-skills li {
@@ -143,7 +145,7 @@ nav {
 }
 
 .nav-item:hover {
-  border-top: 0.3em dotted #ffffff;
+  border-top: 0.2em dotted #ffffff;
   padding: 0.1em 0;
 }
 
@@ -151,6 +153,7 @@ h3 {
   font-family: 'Poiret One', serif;
   text-align: center;
   padding: 1em;
+  letter-spacing: 0.1em;
   font-size: 1.8em;
   color: rgb(91, 95, 99);
 }
@@ -163,8 +166,41 @@ footer {
 }
 
 .project-image > a > img {
-  width: 30vw;
-  box-shadow: -1vw -1vw rgba(176, 176, 176, 0.7);
+  width: 15em;
+  box-shadow: 0.2em 0.2em 0.1em rgba(0,0,0,.2);
   margin: 1em;
+}
+
+.single-project {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  padding: 1em;
+  box-shadow: 0.1em 0.1em 0.1em 0.1em rgba(0,0,0,.2);
+}
+
+.single-project-left {
+  max-width: 30em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.single-project-right {
+  max-width: 30em;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.project-description ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.project-description li {
+ margin: 0 1em;
 }
 
