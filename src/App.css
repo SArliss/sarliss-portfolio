@@ -47,6 +47,37 @@ html {
   height: 99vh;
 }
 
+.arrow-section a {
+  position: absolute;
+  margin: 0 auto;
+  padding: 0;
+  height: 8em;
+  bottom: 0vw;
+  height: 8em;
+  left: 0;
+  right: 0;
+}
+
+.down-arrow-img {
+  height: 8em;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin: 0 auto 0 auto;
+  transform-origin: bottom;
+}
+
+.bounce {
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  30%  { transform: translateY(-20px); }
+  50%  { transform: translateY(0); }
+  100% { transform: translateY(0); }
+}
+
 header {
   display: flex;
   flex-wrap: wrap;
