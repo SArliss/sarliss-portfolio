@@ -39,7 +39,7 @@ html {
   justify-content: center;
   align-items: center;
   justify-items: center;
-  background: url(Images/maclaptop.jpg) no-repeat center center fixed; 
+  background: url(Images/maclaptop.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -52,15 +52,14 @@ html {
   position: absolute;
   margin: 0 auto;
   padding: 0;
-  width: 8em;
+  width: 8vw;
   bottom: 2vw;
-  height: 8em;
   left: 0;
   right: 0;
 }
 
 .down-arrow-img {
-  height: 8em;
+  height: 8vw;
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
