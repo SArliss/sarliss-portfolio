@@ -44,15 +44,16 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 99vh;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .arrow-section a {
   position: absolute;
   margin: 0 auto;
   padding: 0;
-  height: 8em;
-  bottom: 0vw;
+  width: 8em;
+  bottom: 2vw;
   height: 8em;
   left: 0;
   right: 0;
@@ -62,8 +63,6 @@ html {
   height: 8em;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  margin: 0 auto 0 auto;
-  transform-origin: bottom;
 }
 
 .bounce {
@@ -169,7 +168,7 @@ nav {
 .nav-item {
   transition: 0.3s ease;
   color: white;
-  font-size: 1.3em;
+  font-size: 1.2em;
   text-decoration: none;
   padding: .35vw 0;
   margin: 0 .75vw;
