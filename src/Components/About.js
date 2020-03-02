@@ -12,11 +12,11 @@ function About() {
             and the process of converting pseudocode into fully functional web applications.
             <br></br> <br></br>
             With a background in Computer Science and Information Systems, I'm passionate
-            about coding and I'm always striving to master new skills. I have lived abroad and I speak
-            English and Portuguese fluently.
+            about coding and I'm always striving to master new skills. 
             <br></br> <br></br>
-            I enjoy traveling and learning about new cultures, new languages
-            and new ways of thinking. It has made me a very empathetic and open-minded individual.
+            I have lived abroad and I speak English and Portuguese fluently. I enjoy traveling and 
+            learning about new cultures, new languages and new ways of thinking. 
+            It has made me an empathetic and open-minded individual.
             I'm excited to connect with companies and colleagues that inspire me!</p>
         </section>
       </div>

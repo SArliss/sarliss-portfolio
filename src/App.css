@@ -26,7 +26,7 @@ html {
   justify-content: space-evenly;
   text-align: justify;
   background-color: white;
-  padding: 5vw 10vw 1vw 10vw;
+  padding: 5vw 10vw 0vw 10vw;
 }
 
 a {
@@ -160,7 +160,7 @@ header h2 {
 }
 
 #about-sinara p {
-  max-width: 30em;
+  max-width: 40em;
   margin: 0 auto;
   padding: 2em;
 }
@@ -176,24 +176,29 @@ header h2 {
 
 /* SKILLS SECTION  */
 
-#ul-skills {
+.development-icons{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  list-style-type: none;
-  text-align: center;
-  margin: 0 auto;
   align-items: center;
   justify-items: center;
   align-content: center;
   justify-content: center;
-  padding: 0;
+  text-align: center;
 }
 
-#ul-skills li {
-  padding: 0 1em;
-  margin: 0.5em;
-  border-right: 0.1em dotted #919191;
+.development-icons i{
+  width: 1.8em;
+  font-size: 4em;
+  padding: 0;
+  margin: 0.1em 0.2em;
+}
+
+.development-icons span {
+  font-family: 'Spartan', serif;
+  position: relative;
+  font-size: 0.25em;
+  top: -2em;
 }
 
 /* PROJECTS SECTION  */
@@ -224,7 +229,7 @@ header h2 {
 .single-project-right {
   max-width: 30em;
   margin: 0 auto;
-  padding: 2em;
+  padding: 0 2em 2em 2em;
 }
 
 .project-description ul {
@@ -245,6 +250,10 @@ header h2 {
   margin: 0 auto;
 }
 
+.resume-inner-wrapper h3 {
+  margin-bottom: 0.5em;
+}
+
 /* CONTACT SECTION  */
 
 .social-media {
@@ -259,6 +268,11 @@ header h2 {
 .social-media a img {
   width: 5em;
   margin: 1em;
+}
+
+.social-media h3 {
+  padding-top: 0.5em;
+  margin-top: 0;
 }
 
 /* FOOTER */
