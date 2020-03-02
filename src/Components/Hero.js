@@ -14,7 +14,7 @@ function Hero() {
 
       <div className="arrow-section">
         <a href="/#about">
-          <img className="down-arrow-img bounce" src={downArrow} />
+          <img className="down-arrow-img bounce" src={downArrow} alt="arrow link"/>
         </a>
       </div>
 

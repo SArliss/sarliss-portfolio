@@ -26,8 +26,57 @@ html {
   justify-content: space-evenly;
   text-align: justify;
   background-color: white;
-  padding: 7vw 10vw 5vw 10vw;
+  padding: 5vw 10vw 1vw 10vw;
 }
+
+a {
+  color: rgb(60, 131, 136);
+}
+
+h3 {
+  font-family: 'Poiret One', serif;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  letter-spacing: 0.1em;
+  font-size: 1.8em;
+  color: rgb(91, 95, 99);
+}
+
+/* NAVIGATION */
+
+nav {
+  overflow: scroll;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(77, 83, 95, 0.8);
+  box-shadow: 0 0.2em 0.1em -0.1em rgba(0,0,0,.2);
+}
+
+#ul-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: .75vw;
+  list-style-type: none;
+}
+
+.nav-item {
+  transition: 0.3s ease;
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: .35vw 0;
+  margin: 0 .75vw;
+}
+
+.nav-item:hover {
+  border-top: 0.2em dotted #ffffff;
+  padding: 0.1em 0;
+}
+
+/* HERO SECTION */
 
 .hero-section {
   display: flex;
@@ -53,7 +102,7 @@ html {
   margin: 0 auto;
   padding: 0;
   width: 8vw;
-  bottom: 2vw;
+  bottom: 1vw;
   left: 0;
   right: 0;
 }
@@ -97,7 +146,10 @@ header h1 {
 
 header h2 {
   font-size: 2vw;
+  padding-bottom: 0.5em;
 }
+
+/* ABOUT SECTION */
 
 #about-sinara {
   display: flex;
@@ -122,27 +174,7 @@ header h2 {
   box-shadow: -1vw -1vw rgba(176, 176, 176, 0.7);
 }
 
-#resume-icon {
-  width: 13em;
-  margin: 0 auto;
-}
-
-nav {
-  overflow: scroll;
-  z-index: 10;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: rgba(77, 83, 95, 0.8);
-  box-shadow: 0 0.2em 0.1em -0.1em rgba(0,0,0,.2);
-}
-
-#ul-nav {
-  display: flex;
-  justify-content: space-around;
-  padding: .75vw;
-  list-style-type: none;
-}
+/* SKILLS SECTION  */
 
 #ul-skills {
   display: flex;
@@ -164,44 +196,7 @@ nav {
   border-right: 0.1em dotted #919191;
 }
 
-.nav-item {
-  transition: 0.3s ease;
-  color: white;
-  font-size: 1.2em;
-  text-decoration: none;
-  padding: .35vw 0;
-  margin: 0 .75vw;
-}
-
-.nav-item:hover {
-  border-top: 0.2em dotted #ffffff;
-  padding: 0.1em 0;
-}
-
-a {
-  color: rgb(60, 131, 136);
-}
-
-h3 {
-  font-family: 'Poiret One', serif;
-  text-align: center;
-  padding: 1em;
-  letter-spacing: 0.1em;
-  font-size: 1.8em;
-  color: rgb(91, 95, 99);
-}
-
-footer {
-  text-align: center;
-  padding: 1.5em;
-  color: white;
-  background-color: rgba(77, 83, 95, 0.8);
-}
-
-footer a {
-  text-decoration: none;
-  color: white;
-}
+/* PROJECTS SECTION  */
 
 .project-image > a > img {
   width: 15em;
@@ -243,10 +238,18 @@ footer a {
  margin: 0 1em;
 }
 
+/* RESUME SECTION  */
+
+#resume-icon {
+  width: 13em;
+  margin: 0 auto;
+}
+
+/* CONTACT SECTION  */
+
 .social-media {
   text-align: center;
-  padding: 1em;
-  margin: 1em;
+  margin-bottom: 1em;
 }
 
 .social-media p {
@@ -257,4 +260,60 @@ footer a {
   width: 5em;
   margin: 1em;
 }
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  padding: 1.5em;
+  color: white;
+  background-color: rgba(77, 83, 95, 0.8);
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+/* SMALL SCREEN */
+@media only screen and (max-width: 769px) {
+
+  header {
+    padding: 2vw;
+    letter-spacing: 1vw;
+    width: 70vw;
+  }
+
+  header h1 {
+    font-size: 6vw;
+  }
+  
+  header h2 {
+    font-size: 4vw;
+  }
+
+  .hero-section {
+    /* background: url(https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_1280.jpg) no-repeat center center;  */
+    background-position-x: 60%;
+  }
+
+  .arrow-section a {
+    width: 18vw;
+    bottom: 2vw;
+  }
+  
+  .down-arrow-img {
+    height: 18vw;
+  }
+
+  .nav-item {
+    font-size: 0.95em;
+  }
+
+  #about-sinara p {
+    padding: 0.5em 0 0 0;
+  }
+
+}
+
 

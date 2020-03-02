@@ -37,7 +37,7 @@ function Projects() {
               <ul>
                 <li>React</li>
                 <li>HTML/CSS</li>
-                <li><a href="https://github.com/SArliss/peter-pan" target="_blank">Github</a></li>
+                <li><a href="https://github.com/SArliss/peter-pan" target="_blank" rel="noopener noreferrer">Github</a></li>
               </ul>
             </div>
           </section>
@@ -69,7 +69,7 @@ function Projects() {
                 <li>Express</li>
                 <li>Sequelize/Postgres</li>
                 <li>HTML/CSS</li>
-                <li><a href="https://github.com/Tambini/quizly" target="_blank">Github</a></li>
+                <li><a href="https://github.com/Tambini/quizly" target="_blank" rel="noopener noreferrer">Github</a></li>
               </ul>
             </div>
           </section>
@@ -99,7 +99,7 @@ function Projects() {
               <ul>
                 <li>React</li>
                 <li>HTML/CSS</li>
-                <li><a href="https://github.com/SArliss/number-facts" target="_blank">Github</a></li>
+                <li><a href="https://github.com/SArliss/number-facts" target="_blank" rel="noopener noreferrer">Github</a></li>
               </ul>
             </div>
           </section>
@@ -111,7 +111,7 @@ function Projects() {
           <section className="single-project-left">
             <div className="project-image">
               <a href="http://nasaimages.surge.sh/" target="_blank" rel="noopener noreferrer">
-                <img src={nasa} alt="Nasa image search" />
+                <img src={nasa} alt="Nasa search" />
               </a>
             </div>
           </section>
@@ -129,7 +129,7 @@ function Projects() {
               <ul>
                 <li>JavaScript</li>
                 <li>HTML/CSS</li>
-                <li><a href="https://github.com/SArliss/nasa-images" target="_blank">Github</a></li>
+                <li><a href="https://github.com/SArliss/nasa-images" target="_blank" rel="noopener noreferrer">Github</a></li>
               </ul>
             </div>
           </section>
