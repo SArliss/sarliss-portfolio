@@ -3,7 +3,7 @@ import donut from '../Images/donut.png'
 import nasa from '../Images/nasa.png'
 import numbers from '../Images/numbers.png'
 import quizly from '../Images/quizly.png'
-
+import doodling from '../Images/doodling.png'
 
 
 function Projects() {
@@ -12,6 +12,7 @@ function Projects() {
       <div className="projects-wrapper">
 
         <h3>Projects</h3>
+
 
         <section className="single-project">
           <section className="single-project-left">
@@ -23,19 +24,23 @@ function Projects() {
           </section>
 
           <section className="single-project-right">
-          <div className="project-title">
+            <div className="project-title">
               <h4>
                 <a href="http://peterpan.surge.sh/" target="_blank" rel="noopener noreferrer">Peter Pan Donuts</a>
               </h4>
             </div>
 
             <div className="project-description">
-              <p> A collaborative project with UX designers to redesign the website of the nationally 
-                renowned Brooklyn donut shop, Peter Pan Donuts. You can also see the original website <a href="http://peterpandonuts.com/" target="_blank" rel="noopener noreferrer">here</a> for comparison.</p>
+              <p> A collaborative project with UX designers to redesign the website of the nationally
+                renowned Brooklyn donut shop, Peter Pan Donuts.
+                You can also see the original website <a href="http://peterpandonuts.com/"
+                  target="_blank" rel="noopener noreferrer">here</a> for comparison.
+              </p>
 
               <h5>Technologies:</h5>
               <ul>
                 <li>React</li>
+                <li>JavaScript</li>
                 <li>HTML/CSS</li>
                 <li><a href="https://github.com/SArliss/peter-pan" target="_blank" rel="noopener noreferrer">Github</a></li>
               </ul>
@@ -43,7 +48,47 @@ function Projects() {
           </section>
         </section>
 
-        
+
+        <section className="single-project">
+          <section className="single-project-left">
+            <div className="project-image">
+              <a href="http://doodles-art-gallery.s3-website-us-east-1.amazonaws.com/" target="_blank" rel="noopener noreferrer">
+                <img src={doodling} alt="Doodling Art Gallery" />
+              </a>
+            </div>
+          </section>
+
+          <section className="single-project-right">
+            <div className="project-title">
+              <h4>
+                <a href="http://doodles-art-gallery.s3-website-us-east-1.amazonaws.com/" target="_blank" rel="noopener noreferrer">Doodling Art Gallery</a>
+              </h4>
+            </div>
+
+            <div className="project-description">
+              <p>A full-stack basic desktop drawing app that renders Scalable Vector Graphics (SVG),
+                and sends over the image coordinates path to a database developed with Ruby on Rails and Postgres.
+                Users can draw, select a category, updated the title and delete their art in their personal gallery.
+                Public gallery features all public art. The back-end is deployed with Heroku
+                and the front-end is deployed with Amazon Web Services (AWS).
+                Touchscreen is a feature currently under development for the mobile version.
+              </p>
+
+              <h5>Technologies:</h5>
+              <ul>
+                <li>React</li>
+                <li>Ruby on Rails</li>
+                <li>Postgres</li>
+                <li>JavaScript</li>
+                <li>HTML/CSS</li>
+                <li>SVG</li>
+                <li><a href="https://github.com/SArliss/doodling-art-gallery" target="_blank" rel="noopener noreferrer">Github</a></li>
+              </ul>
+            </div>
+          </section>
+        </section>
+
+
         <section className="single-project">
           <section className="single-project-left">
             <div className="project-image">
@@ -54,20 +99,25 @@ function Projects() {
           </section>
 
           <section className="single-project-right">
-          <div className="project-title">
+            <div className="project-title">
               <h4>
                 <a href="http://quizly.surge.sh/" target="_blank" rel="noopener noreferrer">Quizly</a>
               </h4>
             </div>
 
             <div className="project-description">
-              <p> A collaborative full-stack quiz game site that tracks high-scores and allows for user submissions. Admin accounts can approve, edit and delete user submitted questions and answers before entering into the game.</p>
+              <p> A collaborative full-stack and full-CRUD quiz/trivia style game that tracks high-scores.
+                Users can play the game and also submit personalized questions.
+                Admin accounts can approve, edit and delete questions.
+              </p>
 
               <h5>Technologies:</h5>
               <ul>
                 <li>React</li>
                 <li>Express</li>
-                <li>Sequelize/Postgres</li>
+                <li>Sequelize</li>
+                <li>Postgres</li>
+                <li>JavaScript</li>
                 <li>HTML/CSS</li>
                 <li><a href="https://github.com/Tambini/quizly" target="_blank" rel="noopener noreferrer">Github</a></li>
               </ul>
@@ -75,8 +125,7 @@ function Projects() {
           </section>
         </section>
 
-        
-      
+
         <section className="single-project">
           <section className="single-project-left">
             <div className="project-image">
@@ -87,7 +136,7 @@ function Projects() {
           </section>
 
           <section className="single-project-right">
-          <div className="project-title">
+            <div className="project-title">
               <h4>
                 <a href="http://numbersandfacts.surge.sh/" target="_blank" rel="noopener noreferrer">Number Facts</a>
               </h4>
@@ -98,6 +147,7 @@ function Projects() {
               <h5>Technologies:</h5>
               <ul>
                 <li>React</li>
+                <li>JavaScript</li>
                 <li>HTML/CSS</li>
                 <li><a href="https://github.com/SArliss/number-facts" target="_blank" rel="noopener noreferrer">Github</a></li>
               </ul>
@@ -105,8 +155,7 @@ function Projects() {
           </section>
         </section>
 
-        
-        
+
         <section className="single-project">
           <section className="single-project-left">
             <div className="project-image">
@@ -117,14 +166,17 @@ function Projects() {
           </section>
 
           <section className="single-project-right">
-          <div className="project-title">
+            <div className="project-title">
               <h4>
                 <a href="http://nasaimages.surge.sh/" target="_blank" rel="noopener noreferrer">NASA Image Gallery</a>
               </h4>
             </div>
 
             <div className="project-description">
-              <p>This webpage uses a third party API to access the NASA database and allows the user to perform a search for images. It also features a different astronomy and space science related image or video each day, along with a brief explanation written by a professional astronomer.</p>
+              <p>This webpage uses a third party API to access the NASA database and allows the user to perform a search for images.
+                It also features a different astronomy science related image or video each day, along with a brief explanation
+                written by a professional astronomer.
+              </p>
               <h5>Technologies:</h5>
               <ul>
                 <li>JavaScript</li>
