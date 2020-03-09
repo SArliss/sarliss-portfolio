@@ -68,7 +68,7 @@ function Projects() {
             <div className="project-description">
               <p>A full-stack basic desktop drawing app that renders Scalable Vector Graphics (SVG),
                 and sends over the image coordinates path to a database developed with Ruby on Rails and Postgres.
-                Users can draw, select a category, updated the title and delete their art in their personal gallery.
+                Users can draw, select a category, update the image title and delete their art in their personal gallery.
                 Public gallery features all public art. The back-end is deployed with Heroku
                 and the front-end is deployed with Amazon Web Services (AWS).
                 Touchscreen is a feature currently under development for the mobile version.
