@@ -12,7 +12,7 @@ function Resume() {
         </div>
 
         <div>
-          <a href="https://drive.google.com/uc?id=1SuMlYmqtU-cZ6nW0oekHo5pPxMC7Gq2f&export=download" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/uc?id=179G6ZRNN8Fr1oKXemzousReStIhflKRm&export=download" target="_blank" rel="noopener noreferrer">
             <img src={File} id="resume-icon" alt="Sinara resume" />
           </a>
         </div>
