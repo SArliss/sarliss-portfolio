@@ -26,7 +26,7 @@ html {
   justify-content: space-evenly;
   text-align: justify;
   background-color: white;
-  padding: 5vw 10vw 0vw 10vw;
+  padding: 6vw 10vw 0vw 10vw;
 }
 
 a {
@@ -173,10 +173,12 @@ header h2 {
   flex-direction: row;
   align-items: center;
   justify-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 #about-sinara p {
-  max-width: 40em;
+  max-width: 35em;
   margin: 0 auto;
   padding: 1em;
 }
@@ -190,6 +192,10 @@ header h2 {
   box-shadow: -1vw -1vw rgba(176, 176, 176, 0.7);
 }
 
+.about-sinara-photo-wrapper{
+  padding: 0 1em;
+}
+
 /* SKILLS SECTION  */
 
 .development-icons{
@@ -201,6 +207,7 @@ header h2 {
   align-content: center;
   justify-content: center;
   text-align: center;
+  padding-top: 0.5em;
 }
 
 .development-icons i{
@@ -263,7 +270,7 @@ header h2 {
 /* RESUME SECTION  */
 
 #resume-icon {
- width: 12em;
+ width: 10em;
  margin: 0 auto;
  border-radius: 50%;
  border: 0.3em dotted rgb(255, 255, 255);
@@ -356,7 +363,7 @@ footer a {
   }
 
   #about-sinara p {
-    padding: 0.5em 0 0 0;
+    padding: 1em 0 0 0;
   }
 
 }
