@@ -9,6 +9,7 @@ html {
   display: block;
   font-family: 'Spartan', serif;
   font-weight: 200;
+  line-height: 1.5em;
   color: rgb(68, 69, 75);
 }
 
@@ -178,7 +179,8 @@ header h2 {
 }
 
 #about-sinara p {
-  max-width: 35em;
+  text-align: left;
+  max-width: 40em;
   margin: 0 auto;
   padding: 1em;
 }
@@ -251,9 +253,10 @@ header h2 {
 }
 
 .single-project-right {
-  max-width: 30em;
+  max-width: 33em;
   margin: 0 auto;
   padding: 0 2em 2em 2em;
+  text-align: left;
 }
 
 .project-description ul {
