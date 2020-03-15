@@ -20,7 +20,7 @@ function About() {
             <p>
               I am truly passionate about coding, I enjoy problem-solving and I am continuously striving to acquire new skills.
               I love being a developer because I can combine my creativity and analytical traits
-              to develop beautifully designed and functional web applications.
+              to develop responsive and functional web applications.
             </p>
             <p>
               I have lived abroad and I speak English and Portuguese fluently. I enjoy traveling and learning about new cultures,
