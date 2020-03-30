@@ -4,6 +4,7 @@ import nasa from '../Images/nasa.png'
 import numbers from '../Images/numbers.png'
 import quizly from '../Images/quizly.png'
 import doodling from '../Images/doodling.png'
+import news from '../Images/news.png'
 
 
 function Projects() {
@@ -12,6 +13,41 @@ function Projects() {
       <div className="projects-wrapper">
 
         <h3>Projects</h3>
+
+        <section className="single-project">
+          <section className="single-project-left">
+            <div className="project-image">
+              <a href="http://america-top-news.surge.sh/" target="_blank" rel="noopener noreferrer">
+                <img src={news} alt="America Top News" />
+              </a>
+            </div>
+          </section>
+
+          <section className="single-project-right">
+            <div className="project-title">
+              <h4>
+                <a href="http://america-top-news.surge.sh/" target="_blank" rel="noopener noreferrer">America Top News</a>
+              </h4>
+            </div>
+
+            <div className="project-description">
+              <p>A fully resposive website built with create-react-app and powered by newsapi.org to display the 20 latest America top news. 
+              Clicking on a new's headline brings up a modal that shows an avatar with a larger picture, a title, a description and a link to the full article.
+              The modal window was build from scratch without packages. The modal puts an overlay over the rest of the page when it's active.
+              Clicking the modal "close button" closes the modal and returns page to the original view.
+              Clicking outside the modal has the same effect as clicking the close button.
+              </p>
+
+              <h5>Technologies:</h5>
+              <ul>
+                <li>React</li>
+                <li>JavaScript</li>
+                <li>HTML/CSS</li>
+                <li><a href="https://github.com/SArliss/usa-top-headlines" target="_blank" rel="noopener noreferrer">Github</a></li>
+              </ul>
+            </div>
+          </section>
+        </section>
 
 
         <section className="single-project">
