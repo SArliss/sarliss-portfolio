@@ -18,7 +18,7 @@ function Projects() {
           <section className="single-project-left">
             <div className="project-image">
               <a href="http://america-top-news.surge.sh/" target="_blank" rel="noopener noreferrer">
-                <img src={news} alt="America Top News" />
+                <img src={news} alt="America's Top News" />
               </a>
             </div>
           </section>
@@ -26,16 +26,16 @@ function Projects() {
           <section className="single-project-right">
             <div className="project-title">
               <h4>
-                <a href="http://america-top-news.surge.sh/" target="_blank" rel="noopener noreferrer">America Top News</a>
+                <a href="http://america-top-news.surge.sh/" target="_blank" rel="noopener noreferrer">America's Top News</a>
               </h4>
             </div>
 
             <div className="project-description">
-              <p>A fully resposive website built with create-react-app and powered by newsapi.org to display the 20 latest America top news. 
-              Clicking on a new's headline brings up a modal that shows an avatar with a larger picture, a title, a description and a link to the full article.
-              The modal window was build from scratch without packages. The modal puts an overlay over the rest of the page when it's active.
+              <p>A fully responsive website built with create-react-app and powered by newsapi.org to display the 20 latest American news headlines. 
+              Clicking on a news headline brings up a modal that shows an avatar with a larger picture, a title, a description and a link to the full article.
+              The modal window was built from scratch, no packages. The modal puts an overlay over the rest of the page when it's active.
               Clicking the modal "close button" closes the modal and returns page to the original view.
-              Clicking outside the modal has the same effect as clicking the close button.
+              Clicking outside the modal has the same effect as clicking the "close button".
               </p>
 
               <h5>Technologies:</h5>
@@ -104,7 +104,7 @@ function Projects() {
             <div className="project-description">
               <p>A full-stack basic desktop drawing app that renders Scalable Vector Graphics (SVG),
                 and sends over the image coordinates path to a database developed with Ruby on Rails and Postgres.
-                Users can draw, select a category, update the image title and delete their art in their personal gallery.
+                Users can draw an image, select a category, update the image title and delete their art in their personal gallery.
                 Public gallery features all public art. The back-end is deployed with Heroku
                 and the front-end is deployed with Amazon Web Services (AWS).
                 Touchscreen is a feature currently under development for the mobile version.
