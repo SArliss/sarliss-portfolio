@@ -6,21 +6,82 @@ function Skills() {
       <div className="skills-inner-wrapper">
         <h3>Skills</h3>
         <div className="development-icons">
-          <i className="devicon-javascript-plain"><br /><span>Javascript</span></i>
-          <i className="devicon-html5-plain"><br /><span>HTML</span></i>
-          <i className="devicon-css3-plain"><br /><span>CSS</span></i>
-          <i className="devicon-react-original"><br /><span>React</span></i>
-          <i className="devicon-express-original"><br /><span>Express</span></i>
-          <i className="devicon-ruby-plain"><br /><span>Ruby</span></i>
-          <i className="devicon-rails-plain"><br /><span>Rails</span></i>
-          <i className="devicon-postgresql-plain"><br /><span>PostgreSQL</span></i>
-          <i className="devicon-sequelize-plain"><br /><span>Sequelize</span></i>
-          <i className="devicon-nodejs-plain"><br /><span>Node.js</span></i>
-          <i className="devicon-wordpress-plain"><br /><span>Wordpress</span></i>
-          <i className="devicon-github-plain"><br /><span>GitHub</span></i>
-          <i className="devicon-git-plain"><br /><span>Git</span></i>
-          <i className="devicon-python-plain"><br /><span>Python</span></i>
-          <i className="devicon-photoshop-plain"><br /><span>Photoshop</span></i>
+
+          <div>
+            <i className="devicon-javascript-plain"></i>
+            <p>Javascript</p>
+          </div>
+
+          <div>
+            <i className="devicon-html5-plain"></i>
+            <p>HTML</p>
+          </div>
+
+          <div>
+            <i className="devicon-css3-plain"></i>
+            <p>CSS</p>
+          </div>
+
+          <div>
+            <i className="devicon-react-original"></i>
+            <p>React</p>
+          </div>
+
+          <div>
+            <i className="devicon-express-original"></i>
+              <p>Express</p>
+          </div>
+
+          <div>
+            <i className="devicon-ruby-plain"></i>
+              <p>Ruby</p>
+          </div>
+
+          <div>
+            <i className="devicon-rails-plain"></i>
+              <p>Rails</p>
+          </div>
+
+          <div>
+            <i className="devicon-postgresql-plain"></i>
+              <p>PostgreSQL</p>
+          </div>
+
+          <div>
+            <i className="devicon-sequelize-plain"></i>
+              <p>Sequelize</p>
+          </div>
+
+          <div>
+            <i className="devicon-nodejs-plain"></i>
+              <p>Node.js</p>
+          </div>
+
+          <div>
+            <i className="devicon-wordpress-plain"></i>
+              <p>Wordpress</p>
+          </div>
+
+          <div>
+            <i className="devicon-github-plain"></i>
+              <p>GitHub</p>
+          </div>
+
+          <div>
+            <i className="devicon-git-plain"></i>
+              <p>Git</p>
+          </div>
+
+          <div>
+            <i className="devicon-python-plain"></i>
+              <p>Python</p>
+          </div>
+
+          <div>
+            <i className="devicon-photoshop-plain"></i>
+              <p>Photoshop</p>
+          </div>
+
         </div>
       </div>
     </div>

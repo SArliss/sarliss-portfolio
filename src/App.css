@@ -52,14 +52,14 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(77, 83, 95, 0.8);
+  background: linear-gradient(to right, rgba(87, 56, 87, 0.824), rgba(97, 96, 83, 0.781), rgba(74, 82, 94, 0.856), #374d46dc, rgb(77, 97, 105), rgba(114, 64, 81, 0.822));
   box-shadow: 0 0.2em 0.1em -0.1em rgba(0,0,0,.2);
 }
 
 #ul-nav {
   display: flex;
   justify-content: space-around;
-  padding: .75vw;
+  padding: 0.5vw;
   list-style-type: none;
 }
 
@@ -74,7 +74,7 @@ nav {
 
 .nav-item:hover {
   border-top: 0.2em dotted #ffffff;
-  padding: 0.1em 0;
+  padding: .1vw 0;
 }
 
 /* HERO SECTION */
@@ -126,28 +126,36 @@ nav {
   100% { transform: translateY(0); }
 }
 
+.hero-section > a {
+  padding: 0.1em 0;
+  text-decoration: none;
+  border-bottom: 0.3em dotted #ffffff;
+  border-top: 0.3em dotted #ffffff;
+}
+
 header {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
   padding: 1vw;
   font-family: 'Poiret One', serif;
-  letter-spacing: 1vw;
+  letter-spacing: 0.7vw;
   font-weight: 500;
-  width: 50vw;
+  width: 40vw;
   color: rgb(72, 77, 85);
   background-color: rgba(255, 255, 255, 0.7);
   box-shadow: 0 0.2em 0.1em -0.1em rgba(0,0,0,.2);
+  transition: 0.3s ease;
+}
+
+header:hover {
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 header h1 {
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
 header h2 {
-  font-size: 2vw;
-  padding-bottom: 0.5em;
+  font-size: 1.5vw;
+  padding-bottom: 1em;
   white-space: nowrap;
   animation: typing 4s steps(40, end);
   overflow: hidden;
@@ -215,15 +223,30 @@ header h2 {
 .development-icons i{
   width: 1.8em;
   font-size: 4em;
-  padding: 0;
-  margin: 0.1em 0.2em;
+  padding: 0.3em;
+  margin: 0 auto;
 }
 
-.development-icons span {
-  font-family: 'Spartan', serif;
-  position: relative;
-  font-size: 0.25em;
-  top: -2em;
+.development-icons p {
+  margin: 0.5em auto;
+  font-size: 1em;
+}
+
+.development-icons div {
+  margin: 1.2em;
+}
+
+.development-icons div:hover {
+  background: linear-gradient(to right, rgb(177, 91, 218), rgb(230, 189, 75), rgb(46, 170, 253), #00b7c7, #B294FF, #57E6E6);
+  background-size: 500% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 2s linear infinite;
+}
+
+@keyframes gradient { 
+  0%{background-position:0 0}
+  100%{background-position:100% 0}
 }
 
 /* PROJECTS SECTION  */

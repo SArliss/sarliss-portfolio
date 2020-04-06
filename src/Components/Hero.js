@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div className="hero-section">
 
-      <a href="/#about" className="nav-item">
+      <a href="/#about">
         <header>
           <h1>Sinara Arliss</h1>
           <h2>Software Engineer</h2>
