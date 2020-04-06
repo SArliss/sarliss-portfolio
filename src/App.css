@@ -331,7 +331,7 @@ header h2 {
 }
 
 .social-media a img:hover {
-  border: 0.3em dotted rgb(111, 211, 196);
+  border: 0.3em dotted rgb(167, 167, 167);
 }
 
 .social-media h3 {
@@ -356,18 +356,22 @@ footer a {
 /* SMALL SCREEN */
 @media only screen and (max-width: 769px) {
 
+  .hero-section > a {
+    margin-top: -2em;
+  }
+
   header {
-    padding: 2vw;
+    padding: 1vw;
     letter-spacing: 1vw;
     width: 70vw;
   }
 
   header h1 {
-    font-size: 6vw;
+    font-size: 6.5vw;
   }
   
   header h2 {
-    font-size: 4vw;
+    font-size: 4.5vw;
   }
 
   .hero-section {
