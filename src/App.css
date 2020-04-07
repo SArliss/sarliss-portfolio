@@ -11,6 +11,9 @@ html {
   font-weight: 200;
   line-height: 1.5em;
   color: rgb(68, 69, 75);
+  width: 100vw;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .Content {
@@ -52,6 +55,8 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
   background: linear-gradient(to right, rgba(87, 56, 87, 0.824), rgba(97, 96, 83, 0.781), rgba(74, 82, 94, 0.856), #374d46dc, rgb(77, 97, 105), rgba(114, 64, 81, 0.822));
   box-shadow: 0 0.2em 0.1em -0.1em rgba(0,0,0,.2);
 }
