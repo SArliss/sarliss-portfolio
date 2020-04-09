@@ -13,21 +13,25 @@ function About() {
           </div>
 
           <div className="about-sinara-summary">
-            <p>
-              Hello, my name is Sinara. I am a curious and self-driven Software Engineer with a Master’s in Computer Science,
-              and over five years of experience in the Information Technology field.
+            <p> Hello world, I'm Sinara Arliss. </p>
+              
+            <p> I'm a curious Software Engineer with a Master’s in Computer Science,
+            and over five years of experience in the Information Technology field.
             </p>
+            
             <p>
-              I am truly passionate about coding, I enjoy problem-solving and I am continuously striving to acquire new skills.
+              I'm truly passionate about coding, I enjoy problem-solving and I'm continuously striving to acquire new skills.
               I love being a developer because I can combine my creativity and analytical traits
-              to develop responsive and functional web applications.
+              to develop responsive and functional web applications. 
             </p>
+
             <p>
               I have lived abroad and I speak English and Portuguese fluently. I enjoy traveling and learning about new cultures,
               new languages and new ways of thinking. It has made me a highly empathetic and open-minded individual,
               who can quickly adapt to changes in the work environment.
             </p>
-            <p>I am excited to connect with companies and colleagues that inspire me!</p>
+
+            <p>I'm excited to connect with companies and colleagues that inspire me!</p>
           </div>
 
         </section>
