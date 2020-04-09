@@ -13,6 +13,7 @@ function About() {
           </div>
 
           <div className="about-sinara-summary">
+
             <p> Hello world, I'm Sinara Arliss. </p>
               
             <p> I'm a curious Software Engineer with a Master’s in Computer Science,
@@ -32,6 +33,7 @@ function About() {
             </p>
 
             <p>I'm excited to connect with companies and colleagues that inspire me!</p>
+          
           </div>
 
         </section>

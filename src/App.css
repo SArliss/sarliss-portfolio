@@ -162,7 +162,7 @@ header h2 {
   font-size: 1.5vw;
   padding-bottom: 1em;
   white-space: nowrap;
-  animation: typing 6s steps(40, end);
+  animation: typing 5s steps(40, end);
   overflow: hidden;
   border-right: 0.1em solid white;
   -webkit-animation-delay: 1s;
@@ -421,8 +421,13 @@ footer a:hover {
     font-size: 0.95em;
   }
 
+  #about.section-wrapper {
+    padding: 1.5em;
+  }
+
   #about-sinara p {
     padding: 1em 0 0 0;
+    font-size: 0.9em;
   }
 
   .development-icons{
@@ -443,6 +448,18 @@ footer a:hover {
     padding: 0.5em;
     width: 5.1em;
   }
+
+  .single-project-right {
+    padding: 0 1em 0.5em 1em;
+  }
+
+  #projects p, #projects ul {
+    font-size: 0.9em;
+  }
+
+  #resume-icon {
+    width: 8em;
+   }
 
 }
 

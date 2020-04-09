@@ -38,7 +38,7 @@ function Projects() {
               Clicking outside the modal has the same effect as clicking the "close button".
               </p>
 
-              <h5>Technologies:</h5>
+              <p>Technologies:</p>
               <ul>
                 <li>React</li>
                 <li>JavaScript</li>
@@ -73,7 +73,7 @@ function Projects() {
                   target="_blank" rel="noopener noreferrer">here</a> for comparison.
               </p>
 
-              <h5>Technologies:</h5>
+              <p>Technologies:</p>
               <ul>
                 <li>React</li>
                 <li>JavaScript</li>
@@ -110,7 +110,7 @@ function Projects() {
                 Touchscreen is a feature currently under development for the mobile version.
               </p>
 
-              <h5>Technologies:</h5>
+              <p>Technologies:</p>
               <ul>
                 <li>React</li>
                 <li>Ruby on Rails</li>
@@ -147,7 +147,7 @@ function Projects() {
                 Admin accounts can approve, edit and delete questions.
               </p>
 
-              <h5>Technologies:</h5>
+              <p>Technologies:</p>
               <ul>
                 <li>React</li>
                 <li>Express</li>
@@ -180,7 +180,7 @@ function Projects() {
 
             <div className="project-description">
               <p>This webpage uses a third party API to access and render interesting facts about numbers.</p>
-              <h5>Technologies:</h5>
+              <p>Technologies:</p>
               <ul>
                 <li>React</li>
                 <li>JavaScript</li>
@@ -213,7 +213,7 @@ function Projects() {
                 It also features a different astronomy science related image or video each day, along with a brief explanation
                 written by a professional astronomer.
               </p>
-              <h5>Technologies:</h5>
+              <p>Technologies:</p>
               <ul>
                 <li>JavaScript</li>
                 <li>HTML/CSS</li>

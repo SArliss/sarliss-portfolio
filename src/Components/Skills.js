@@ -63,13 +63,13 @@ function Skills() {
           </div>
 
           <div>
-            <i className="devicon-github-plain"></i>
-              <p>GitHub</p>
+            <i className="devicon-git-plain"></i>
+              <p>Git</p>
           </div>
 
           <div>
-            <i className="devicon-git-plain"></i>
-              <p>Git</p>
+            <i className="devicon-github-plain"></i>
+              <p>GitHub</p>
           </div>
 
           <div>
