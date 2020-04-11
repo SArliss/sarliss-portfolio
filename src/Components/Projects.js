@@ -124,74 +124,6 @@ function Projects() {
           </section>
         </section>
 
-
-        <section className="single-project">
-          <section className="single-project-left">
-            <div className="project-image">
-              <a href="http://quizly.surge.sh/" target="_blank" rel="noopener noreferrer">
-                <img src={quizly} alt="Quizly game" />
-              </a>
-            </div>
-          </section>
-
-          <section className="single-project-right">
-            <div className="project-title">
-              <h4>
-                <a href="http://quizly.surge.sh/" target="_blank" rel="noopener noreferrer">Quizly</a>
-              </h4>
-            </div>
-
-            <div className="project-description">
-              <p> A collaborative full-stack and full-CRUD quiz/trivia style game that tracks high-scores.
-                Users can play the game and also submit personalized questions.
-                Admin accounts can approve, edit and delete questions.
-              </p>
-
-              <p>Technologies:</p>
-              <ul>
-                <li>React</li>
-                <li>Express</li>
-                <li>Sequelize</li>
-                <li>Postgres</li>
-                <li>JavaScript</li>
-                <li>HTML/CSS</li>
-                <li><a href="https://github.com/Tambini/quizly" target="_blank" rel="noopener noreferrer">Github</a></li>
-              </ul>
-            </div>
-          </section>
-        </section>
-
-
-        <section className="single-project">
-          <section className="single-project-left">
-            <div className="project-image">
-              <a href="http://numbersandfacts.surge.sh/" target="_blank" rel="noopener noreferrer">
-                <img src={numbers} alt="Numbers and facts" />
-              </a>
-            </div>
-          </section>
-
-          <section className="single-project-right">
-            <div className="project-title">
-              <h4>
-                <a href="http://numbersandfacts.surge.sh/" target="_blank" rel="noopener noreferrer">Number Facts</a>
-              </h4>
-            </div>
-
-            <div className="project-description">
-              <p>This webpage uses a third party API to access and render interesting facts about numbers.</p>
-              <p>Technologies:</p>
-              <ul>
-                <li>React</li>
-                <li>JavaScript</li>
-                <li>HTML/CSS</li>
-                <li><a href="https://github.com/SArliss/number-facts" target="_blank" rel="noopener noreferrer">Github</a></li>
-              </ul>
-            </div>
-          </section>
-        </section>
-
-
         <section className="single-project">
           <section className="single-project-left">
             <div className="project-image">
@@ -204,7 +136,7 @@ function Projects() {
           <section className="single-project-right">
             <div className="project-title">
               <h4>
-                <a href="http://nasaimages.surge.sh/" target="_blank" rel="noopener noreferrer">NASA Image Gallery</a>
+                <a href="http://nasaimages.surge.sh/" target="_blank" rel="noopener noreferrer">NASA Images</a>
               </h4>
             </div>
 
