@@ -16,7 +16,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="App" id="sinara">
         
         <Nav />
         <Hero />

@@ -1,8 +1,6 @@
 import React from 'react';
 import donut from '../Images/donut.png'
 import nasa from '../Images/nasa.png'
-import numbers from '../Images/numbers.png'
-import quizly from '../Images/quizly.png'
 import doodling from '../Images/doodling.png'
 import news from '../Images/news.png'
 

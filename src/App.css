@@ -383,6 +383,23 @@ footer a:hover {
   color: rgb(89, 187, 178);
 }
 
+.top-sign {
+  text-align: center;
+  font-size: 1em;
+  padding: 1em;
+  color: white;
+  background-color:  rgb(82, 179, 177);
+}
+
+.top-sign a {
+  color: white;
+}
+
+.top-sign a:hover {
+  color: rgb(6, 37, 6);
+}
+
+
 /* SMALL SCREEN */
 @media only screen and (max-width: 769px) {
 
