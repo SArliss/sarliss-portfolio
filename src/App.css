@@ -13,6 +13,12 @@ html {
   font-weight: 200;
   line-height: 1.5em;
   color: rgb(68, 69, 75);
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0}
+  to   { opacity: 1}
 }
 
 .Content {
