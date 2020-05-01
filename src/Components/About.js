@@ -14,17 +14,15 @@ function About() {
 
           <div className="about-sinara-summary">
 
-            <p>Hello world, I'm Sinara Arliss.</p>
-              
-            <p>I'm a curious Software Engineer with a Master’s in Computer Science,
-            and over five years of experience in the Information Technology field.</p>
+            <p>Software Engineer | Solutions Engineer | Full-Stack Web Developer</p>
             
-            <p>I'm truly passionate about coding, I enjoy problem-solving and I'm continuously striving to acquire new skills.
-              I love being a developer because I can combine my creativity and analytical traits
-              to develop responsive and functional web applications.</p>
+            <p>Hello world,</p>
+             
+            <p>I'm Sinara Arliss, a self-driven Software Engineer with a Master’s in Computer Science and over five years of work experience in the Information Technology industry.</p>
+            
+            <p>I enjoy problem-solving and I love being a Software Engineer because I can combine my creativity and analytical traits to find solutions to complex problems efficiently, and also merge my passion for coding and innovative technologies to develop eloquently designed web applications.</p>
 
-            <p>I have lived abroad and I speak English and Portuguese fluently. I enjoy traveling and learning about new cultures,
-              new languages and new ways of thinking. It has made me a highly empathetic and open-minded individual,
+            <p>I live in New Jersey, USA, and have easy access to the Highlands-NYC ferry. I was born in Brazil and I speak English and Portuguese fluently. I enjoy traveling and learning about new cultures, new languages and new ways of thinking. It has made me a highly empathetic and open-minded individual,
               who can quickly adapt to changes in the work environment.</p>
 
             <p>I'm excited to connect with companies and colleagues that inspire me!</p>

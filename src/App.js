@@ -20,7 +20,6 @@ class App extends React.Component {
         
         <Nav />
         <Hero />
-        
 
         <div className="Content">
           <About />
