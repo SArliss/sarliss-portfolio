@@ -146,7 +146,7 @@ nav {
 }
 
 header {
-  padding: 1vw;
+  padding: 1vw 1vw 2vw 1vw;
   font-family: 'Poiret One', serif;
   letter-spacing: 0.7vw;
   font-weight: 500;
@@ -167,11 +167,11 @@ header h1 {
 
 header h2 {
   font-size: 1.5vw;
-  padding-bottom: 1em;
+  padding: 0.5em;
   white-space: nowrap;
-  animation: typing 5s steps(40, end);
+  animation: typing 4s steps(40, end);
   overflow: hidden;
-  border-right: 0.1em solid white;
+  border-right: 0.1em solid rgb(244, 255, 85);
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
   -webkit-animation-fill-mode: forwards;
@@ -450,7 +450,7 @@ footer a:hover {
   }
 
   header {
-    padding: 1vw;
+    padding: 1vw 1vw 5vw 1vw;
     letter-spacing: 1vw;
     width: 70vw;
   }
