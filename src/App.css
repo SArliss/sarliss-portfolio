@@ -88,6 +88,10 @@ nav {
   transition: 0.5s ease-in-out;
 }
 
+.logo-nav {
+  font-family: 'Shadows Into Light', cursive;
+}
+
 .nav-item:hover {
   border-top: 0.2em dotted #62a5a8ec;
 }
