@@ -460,7 +460,7 @@ footer a:hover {
 @media only screen and (max-width: 769px) {
 
   .hero-section > a {
-    margin-top: -2em;
+    margin-top: -4em;
   }
 
   .hero-title {
@@ -489,7 +489,7 @@ footer a:hover {
   }
 
   .nav-item, .logo-nav a {
-    font-size: 3.3vw;
+    font-size: 3.4vw;
     padding: .1vw;
     margin: 0 1.2vw;
   }
