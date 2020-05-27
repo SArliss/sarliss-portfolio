@@ -101,27 +101,87 @@ nav {
   justify-content: center;
   align-items: center;
   justify-items: center;
-  background: url(Images/maclaptop.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  -webkit-background-size: 400% 400%;
+  -moz-background-size: 400% 400%;
+  -o-background-size: 400% 400%;
+  background-size: 400% 400%;
   height: 100vh;
   overflow: hidden;
+  animation: change 10s ease-in-out infinite;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.hero-section > a {
+  padding: 0.1em 0;
+  text-decoration: none;
+  border: 0.01em solid rgba(255, 255, 255, 0);
+  transition: 0.5s ease-in-out;
+}
+
+.hero-section > a:hover {
+  border: 0.01em solid white;
+}
+
+.hero-title {
+  padding: 1vw 0.1vw 2vw 0.1vw;
+  font-family: 'Raleway Dots', cursive;
+  letter-spacing: 0.6vw;
+  font-weight: 100;
+  text-transform: uppercase;
+  width: 35vw;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  transition: 0.3s ease;
+}
+
+.hero-title h1 {
+  font-size: 2.5vw;
+}
+
+.hero-title h2 {
+  font-size: 1.4vw;
+  padding: 0.5em;
+  white-space: nowrap;
+  animation: typing 4s steps(40, end);
+  overflow: hidden;
+  border-right: 0.1em solid rgb(244, 255, 85);
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  margin: 0 auto;
+}
+
+@keyframes typing {
+  0% { width: 0%;}
+  1% {opacity: 1;}
+  100% { width: 77%; opacity: 1; border-color: transparent;}
 }
 
 .arrow-section a {
   position: absolute;
   margin: 0 auto;
   padding: 0;
-  width: 8vw;
+  width: 5vw;
   bottom: 1vw;
   left: 0;
   right: 0;
 }
 
 .down-arrow-img {
-  height: 8vw;
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
@@ -136,55 +196,6 @@ nav {
   30%  { transform: translateY(-20px); }
   50%  { transform: translateY(0); }
   100% { transform: translateY(0); }
-}
-
-.hero-section > a {
-  padding: 0.1em 0;
-  text-decoration: none;
-  border-bottom: 0.3em dotted #ffffff;
-  border-top: 0.3em dotted #ffffff;
-}
-
-header {
-  padding: 1vw 1vw 2vw 1vw;
-  font-family: 'Poiret One', serif;
-  letter-spacing: 0.7vw;
-  font-weight: 500;
-  width: 40vw;
-  color: rgb(72, 77, 85);
-  background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: 0 0.2em 0.1em -0.1em rgba(0,0,0,.2);
-  transition: 0.3s ease;
-}
-
-header:hover {
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
-header h1 {
-  font-size: 2.5vw;
-}
-
-header h2 {
-  font-size: 1.5vw;
-  padding: 0.5em;
-  white-space: nowrap;
-  animation: typing 4s steps(40, end);
-  overflow: hidden;
-  border-right: 0.1em solid rgb(244, 255, 85);
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  opacity: 0;
-  margin: 0 auto;
-  /* background-color: lightcoral; */
-}
-
-@keyframes typing {
-  0% { width: 0%;}
-  1% {opacity: 1;}
-  100% { width: 77%; opacity: 1; border-color: transparent;}
 }
 
 /* ABOUT SECTION */
@@ -449,31 +460,25 @@ footer a:hover {
     margin-top: -2em;
   }
 
-  header {
-    padding: 1vw 1vw 5vw 1vw;
-    letter-spacing: 1vw;
-    width: 70vw;
+  .hero-title {
+    width: 80vw;
   }
 
-  header h1 {
+  .hero-title h1 {
     font-size: 6.5vw;
   }
   
-  header h2 {
+  .hero-title h2 {
     font-size: 4.5vw;
   }
 
-  .hero-section {
-    background-position-x: 60%;
-  }
-
   .arrow-section a {
-    width: 18vw;
+    width: 15vw;
     bottom: 2vw;
   }
   
   .down-arrow-img {
-    height: 18vw;
+    height: 15vw;
   }
 
   .nav-item {
