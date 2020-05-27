@@ -45,7 +45,7 @@ a {
 }
 
 h3 {
-  font-family: 'Poiret One', serif;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
   padding-top: 1em;
   padding-bottom: 0.5em;
@@ -139,7 +139,7 @@ nav {
 
 .hero-title {
   padding: 1vw 0.1vw 2vw 0.1vw;
-  font-family: 'Raleway Dots', cursive;
+  font-family: 'Raleway', sans-serif;
   letter-spacing: 0.6vw;
   font-weight: 100;
   text-transform: uppercase;
