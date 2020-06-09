@@ -25,7 +25,7 @@ function About() {
             I believe that creating eloquently designed tools and applications can be an enormous driver in improving and growing an organization.</p>
 
             <p>I live in New Jersey, USA, near the beatiful Navesink river and I have easy access to the Highlands-NYC Seastreak ferry. I was born in Brazil and I speak English and Portuguese fluently. I enjoy traveling and learning about new cultures, new languages and new ways of thinking. It has made me an empathetic and open-minded individual,
-              who can quickly adapt to changes in the work environment.</p>
+              who can quickly learn and adapt to changes in the work environment.</p>
 
             <p>I'm excited to connect with companies and colleagues that inspire me!</p>
           
