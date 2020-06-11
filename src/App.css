@@ -179,6 +179,14 @@ h3 {
   animation: change 7s ease-in-out infinite;
 }
 
+.hero-section-dark{
+  background: linear-gradient(-45deg, rgb(165, 82, 56), rgb(164, 41, 88), rgb(25, 123, 159), rgb(25, 156, 125));
+  -webkit-background-size: 400% 400%;
+  -moz-background-size: 400% 400%;
+  -o-background-size: 400% 400%;
+  background-size: 400% 400%;
+}
+
 @keyframes change {
   0% {
     background-position: 0 50%;
