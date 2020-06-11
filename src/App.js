@@ -40,9 +40,7 @@ class App extends React.Component {
           mode={this.state.mode}
           handleMode={this.handleMode}
         />
-        <Hero
-          mode={this.state.mode}
-        />
+        <Hero mode={this.state.mode}/>
 
         <div className="Content">
           <About />
