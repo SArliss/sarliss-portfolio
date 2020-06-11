@@ -307,7 +307,7 @@ h3 {
 .about-sinara-summary p:first-child{
   color: #6284be;
   font-size: larger;
-  font-weight: 400;
+  font-weight: 300;
 ;}
 
 /* SKILLS SECTION  */
@@ -435,7 +435,7 @@ h3 {
 }
 
 .project-title a{
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.2em;
   text-decoration: none;
 }
