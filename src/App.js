@@ -40,7 +40,7 @@ class App extends React.Component {
           mode={this.state.mode}
           handleMode={this.handleMode}
         />
-        <Hamburger />
+        <Hamburger mode={this.state.mode}/>
         <Hero mode={this.state.mode}/>
 
         <div className="Content">
