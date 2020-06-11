@@ -9,25 +9,35 @@ function Hamburger(props) {
       height: '1.9em',
       right: '2vw',
       top: '2vw',
-      outlineStyle: 'none'
     },
     bmCrossButton: {
       height: '2em',
-      width: '2em'
+      width: '2em',
+      margin: '0.2em -0.4em',
+      padding: '0.5em',
+      textAlign: "center"
     },
     bmCross: {
-      background: '#8ba1c5'
+      background: '#8ba1c5',
+      height: '0.2em',
+      width: '1.5em',
+      right: '0.1vw',
+      top: '3vw'
     },
     bmMenuWrap: {
       position: 'fixed',
-      height: '50%',
-      width: '100%'
+      height: '55%',
+      width: '100%',
+      right: '0',
+      top: '-0.5em',
     },
     bmMenu: {
-      background: '#f0f0f0',
+      background: 'linear-gradient(-180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.9))',
       padding: '2.5em 1.5em 0',
       fontSize: '1.15em',
-      overflow: 'hidden'
+      overflow: 'hidden',
+      boxShadow: '0 0.3em 0.5em -0.1em rgba(0,0,0,.2)',
+      boxSizing: 'border-box'
     },
     bmMorphShape: {
       fill: '#373a47'
@@ -45,7 +55,7 @@ function Hamburger(props) {
       marginBottom: '1em'
     },
     bmOverlay: {
-      background: 'rgba(0, 0, 0, 0)'
+      background: 'rgba(0, 0, 0, 0.05)'
     }
   }
 
@@ -56,25 +66,35 @@ function Hamburger(props) {
       height: '1.9em',
       right: '2vw',
       top: '2vw',
-      outlineStyle: 'none'
     },
     bmCrossButton: {
       height: '2em',
-      width: '2em'
+      width: '2em',
+      margin: '0.2em -0.4em',
+      padding: '0.5em',
+      textAlign: "center"
     },
     bmCross: {
-      background: '#8ba1c5'
+      background: '#8ba1c5',
+      height: '0.2em',
+      width: '1.5em',
+      right: '0.1vw',
+      top: '3vw'
     },
     bmMenuWrap: {
       position: 'fixed',
-      height: '50%',
-      width: '100%'
+      height: '55%',
+      width: '100%',
+      right: '0',
+      top: '-0.5em',
     },
     bmMenu: {
-      background: '#373a47',
+      background: 'linear-gradient(-180deg, rgba(38, 38, 48, 1), rgba(38, 38, 48, 1), rgba(38, 38, 48, 0.95), rgba(38, 38, 48, 0.9))',
       padding: '2.5em 1.5em 0',
       fontSize: '1.15em',
-      overflow: 'hidden'
+      overflow: 'hidden',
+      boxShadow: '0 0.3em 0.5em -0.1em rgba(0,0,0,.2)',
+      boxSizing: 'border-box'
     },
     bmMorphShape: {
       fill: '#373a47'
@@ -92,7 +112,7 @@ function Hamburger(props) {
       marginBottom: '1em'
     },
     bmOverlay: {
-      background: 'rgba(0, 0, 0, 0)'
+      background: 'rgba(0, 0, 0, 0.05)'
     }
   }
 
