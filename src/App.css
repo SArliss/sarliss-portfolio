@@ -90,9 +90,9 @@ h3 {
 .nav-item, .btn-mod, .logo-nav a {
   font-size: 1.2em;
   text-decoration: none;
-  padding: 0.5vw 1vw;
+  padding: 0.5vw;
   border-radius: 0.2em;
-  margin: 0 2vw;
+  margin: 0 2.5vw;
   transition: 0.5s ease-in-out;
 }
 
@@ -104,7 +104,6 @@ h3 {
 
 .nav-item:hover, .logo-nav a:hover {
   color: #a67de9;
-  background-color: rgba(181, 181, 181, 0.2);
 }
 
 .btn-mode{
@@ -153,6 +152,10 @@ h3 {
   position: absolute;
   left:50%;
   background: rgb(198, 198, 198);
+}
+
+.hamburger-menu {
+  display: none;
 }
 
 /* HERO SECTION */
@@ -498,7 +501,7 @@ h3 {
   font-size: 0.9em;
   padding: 0 0 2em;
   color: white;
-  background-color: #414345;
+  background-color: rgb(55, 58, 71);
 }
 
 footer a {
@@ -608,6 +611,31 @@ footer a:hover, .top-sign a:hover {
 
   .single-project-right {
     padding: 0 0.2em 0.5em 0.2em;
+  }
+
+  /* HAMBURGER MENU  */
+
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .hamburger-menu *:focus {
+    outline: 0.5em solid rgba(181, 181, 181, 0.1);
+    border-radius: 0.1em;
+    background-color: rgba(181, 181, 181, 0.1);
+  }
+
+  .bm-item:hover {
+    color: #a67de9;
+  }
+
+  .bm-burger-bars {
+    background: #8ba1c5;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #2665ca;
   }
 
 }
