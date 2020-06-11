@@ -21,8 +21,8 @@ function Hamburger(props) {
       background: '#8ba1c5',
       height: '0.2em',
       width: '1.5em',
-      right: '0.1vw',
-      top: '3vw'
+      right: '0.2em',
+      top: '1.3em'
     },
     bmMenuWrap: {
       position: 'fixed',
@@ -78,8 +78,8 @@ function Hamburger(props) {
       background: '#8ba1c5',
       height: '0.2em',
       width: '1.5em',
-      right: '0.1vw',
-      top: '3vw'
+      right: '0.2em',
+      top: '1.3em'
     },
     bmMenuWrap: {
       position: 'fixed',
