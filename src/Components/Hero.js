@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Hero() {
+function Hero(props) {
   return (
     <div className="hero-section">
 

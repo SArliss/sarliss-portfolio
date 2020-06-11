@@ -13,13 +13,36 @@ import Resume from './Components/Resume';
 
 
 class App extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      mode: JSON.parse(localStorage.getItem("Mode"))
+    }
+  }
+
+  handleMode = () => {
+    if (JSON.parse(localStorage.getItem("Mode")) === true) {
+      this.setState({ mode: false }, () => {
+        localStorage.setItem("Mode", JSON.stringify(false));
+      })
+    } else {
+      this.setState({ mode: true }, () => {
+        localStorage.setItem("Mode", JSON.stringify(true));
+      })
+    }
+  }
 
   render() {
     return (
-      <div className="App" id="sinara">
-        
-        <Nav />
-        <Hero />
+      <div className={this.state.mode ? "dark-app app" : "app"} id="sinara">
+
+        <Nav
+          mode={this.state.mode}
+          handleMode={this.handleMode}
+        />
+        <Hero
+          mode={this.state.mode}
+        />
 
         <div className="Content">
           <About />
