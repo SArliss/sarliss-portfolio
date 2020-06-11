@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Hero() {
+function Hero(props) {
   return (
-    <div className="hero-section">
+    <div className={props.mode ? "hero-section hero-section-dark" : "hero-section"}>
 
       <a href="/#about">
         <div className="hero-title">

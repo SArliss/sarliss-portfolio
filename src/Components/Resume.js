@@ -1,6 +1,4 @@
 import React from 'react';
-import File from '../Images/file.png'
-
 
 function Resume() {
   return (
@@ -11,9 +9,9 @@ function Resume() {
           <h3>Resume</h3>
         </div>
 
-        <div>
+        <div className="resume-icon-wrapper">
           <a href="https://drive.google.com/file/d/1YiTqkkIKQZ-vsuaFvFpYUnnVbs5oJqKh/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-            <img src={File} id="resume-icon" alt="Sinara resume" />
+          <i className="fas fa-file-pdf" title="sinara resume"></i>
           </a>
         </div>
 
