@@ -5,7 +5,7 @@ function Nav(props) {
     <nav className={props.mode ? "nav dark-nav" : "nav"}>
 
       <ul className="logo-nav">
-        <a href="/#sinara">SArliss</a>
+        <a href="/#home">SArliss</a>
         <div className="btn-mode" title="light or dark mode">
           <div className={props.mode ? "btn-icons btn-icons-dark" : "btn-icons"} onClick={props.handleMode}>
             <i className="fas fa-moon"></i>

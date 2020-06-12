@@ -34,7 +34,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className={this.state.mode ? "dark-app app" : "app"} id="sinara">
+      <div className={this.state.mode ? "dark-app app" : "app"} id="home">
 
         <Nav
           mode={this.state.mode}

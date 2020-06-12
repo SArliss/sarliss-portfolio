@@ -5,7 +5,7 @@ function Footer() {
     <div className="footer-wrapper">
 
       <div className="top-sign">
-        <a href="/#sinara">↑ TOP</a>
+        <a href="/#home">↑ TOP</a>
       </div>
 
       <div className="social-media-icons">
