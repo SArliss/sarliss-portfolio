@@ -20,7 +20,7 @@ function About() {
              
             <p>I'm Sinara Arliss, a self-driven software engineer with a master’s in computer science and over five years of work experience in the information technology industry.</p>
             
-            <p> I see myself as a full-stack web developer with a strength in the front-end and I'm passionate about clean code and great UI/UX. I love being a developer because I can combine my creativity and analytical traits to break down complex problems and solve them efficiently. 
+            <p> I see myself as a full-stack web developer with a strength in the front-end and a passion for clean code and great UI/UX. I love being a developer because I can combine my creativity and analytical traits to break down complex problems and solve them efficiently. 
             I develop fully responsive web applications, and write high-quality code that is scalable and maintainable.
             I believe that creating eloquently designed tools and applications can be an enormous driver in improving and growing an organization.</p>
 
