@@ -64,18 +64,18 @@ h3 {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
-  z-index: 10;
+  z-index: 2000;
   position: fixed;
   top: 0;
   width: 100%;
   overflow: hidden;
   box-sizing: border-box;
-  background: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 0.3em 0.5em -0.1em rgba(0,0,0,.2);
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 0.3em 0.5em -0.1em rgba(0, 0, 0, 0.2);
 }
 
 .dark-nav {
-  background:  rgba(38, 38, 48, 0.9)
+  background:  rgb(39, 39, 51)
 }
 
 .logo-nav, .ul-nav {
@@ -207,19 +207,19 @@ h3 {
   transition: 0.5s ease-in-out;
 }
 
-.hero-section > a:hover {
-  border: 0.01em solid white;
-}
-
 .hero-title {
+  font-family: 'Montserrat', sans-serif;
   padding: 1vw 0.1vw 2vw 0.1vw;
-  font-family: 'Raleway', sans-serif;
   letter-spacing: 0.6vw;
   text-transform: uppercase;
   width: 35vw;
-  color: white;
+  color: rgb(235, 230, 250);
   background-color: rgba(255, 255, 255, 0);
   transition: 0.3s ease;
+}
+
+.hero-title-dark{
+  color: rgb(40, 40, 43);
 }
 
 .hero-title h1 {
@@ -372,12 +372,12 @@ h3 {
   justify-items: center;
   padding: 1em;
   margin-bottom: 1em;
-  box-shadow: 0.1em 0.1em 0.1em 0.1em rgba(0,0,0,.2);
+  background-color: rgba(73, 103, 139, 0.05);
   transition: 0.5s ease-in-out;
 }
 
 .single-project:hover {
-  background-color: rgba(179, 199, 218, 0.1);
+  background-color: rgba(73, 103, 139, 0.15);
 }
 
 .single-project-left {
@@ -553,6 +553,7 @@ footer a:hover, .top-sign a:hover {
 
   .hero-title h1 {
     font-size: 6.5vw;
+    margin-bottom: 2vw;
   }
   
   .hero-title h2 {
@@ -569,7 +570,7 @@ footer a:hover, .top-sign a:hover {
   }
 
   .nav {
-    padding: 1vw 0; 
+    padding: 1vw; 
   }
 
   .ul-nav {
@@ -606,7 +607,7 @@ footer a:hover, .top-sign a:hover {
   }
 
   .single-project-right {
-    padding: 0 0.2em 0.5em 0.2em;
+    padding: 0 3vw 3vw 3vw;
   }
 
   /* HAMBURGER MENU  */
@@ -626,14 +627,9 @@ footer a:hover, .top-sign a:hover {
   }
 
   .bm-burger-bars {
-    background: #8ba1c5;
-  }
-  
-  /* Color/shape of burger icon bars on hover*/
-  .bm-burger-bars-hover, .bmCross-hover {
     background: #a67de9;
   }
-
+  
 }
 
 

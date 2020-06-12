@@ -5,7 +5,7 @@ function Hero(props) {
     <div className={props.mode ? "hero-section hero-section-dark" : "hero-section"}>
 
       <a href="/#about">
-        <div className="hero-title">
+        <div className={props.mode ? "hero-title hero-title-dark" : "hero-title"}>
           <h1>Sinara Arliss</h1>
           <h2>Software Engineer</h2>
         </div>
@@ -17,8 +17,8 @@ function Hero(props) {
             <path
               d="M 100 150 L 300 150 L 200 300 z"
               fill="none"
-              stroke="white"
-              strokeWidth="4"
+              stroke={props.mode ? "rgb(40, 40, 43)": "rgb(235, 230, 250)"}
+              strokeWidth="6"
             />
           </svg>
         </a>
