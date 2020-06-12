@@ -36,12 +36,9 @@ class App extends React.Component {
     return (
       <div className={this.state.mode ? "dark-app app" : "app"} id="home">
 
-        <Nav
-          mode={this.state.mode}
-          handleMode={this.handleMode}
-        />
-        <Hamburger mode={this.state.mode}/>
-        <Hero mode={this.state.mode}/>
+        <Nav mode={this.state.mode} handleMode={this.handleMode} />
+        <Hamburger mode={this.state.mode} />
+        <Hero mode={this.state.mode} />
 
         <div className="Content">
           <About />
