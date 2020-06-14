@@ -311,6 +311,10 @@ h3 {
   font-size: larger;
 }
 
+.about-sinara-summary a:hover{
+  color: #a67de9;
+}
+
 /* SKILLS SECTION  */
 
 .development-icons{
