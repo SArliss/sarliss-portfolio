@@ -364,7 +364,7 @@ h3 {
 .project-image > a > img {
   width: 18em;
   box-shadow: 0.2em 0.2em 0.2em 0.1em rgba(0,0,0,.2);
-  outline: 0.1em solid rgba(128, 128, 128, 0.3);
+  outline: 0.1em solid rgba(73, 103, 139, 0.1);
   margin: 1em;
 }
 
