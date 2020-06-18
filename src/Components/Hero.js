@@ -7,7 +7,7 @@ function Hero(props) {
       <a href="/#about">
         <div className={props.mode ? "hero-title hero-title-dark" : "hero-title"}>
           <h1>Sinara Arliss</h1>
-          <h2>Software Engineer</h2>
+          <h2>Software | Solutions Engineer</h2>
         </div>
       </a>
 
